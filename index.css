@@ -1,0 +1,391 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* body 
+        {
+            font-family: "Edu NSW ACT Cursive", cursive;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+         */
+        
+        nav a{
+            color: white;
+            text-decoration: none;
+            padding-right: 80px;
+        }
+
+        nav{
+            text-align: center;    
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 15px 0;
+            margin-top: 0;
+            position: sticky;
+            top: 0;
+            font-weight: bold;
+            z-index: 100;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        nav a:hover{
+            color: black;
+        }
+
+        .homeClass{  
+            height: 450px;
+            width: 100%;
+            background-image: url('https://i.pinimg.com/736x/0d/93/ed/0d93ed0c57d2b819157912b2b816d15c.jpg');
+            background-size: 400px 400px;
+            background-position: 90px 0;
+            background-repeat: no-repeat;
+            margin-top: 30px;
+            padding-bottom: 0px;
+            position: relative;
+        }
+
+        .myPortfolio{
+            position: absolute;
+            top: 25%;
+            left: 44%;
+            font-size: 70px;
+            font-weight: bold;
+            color: black;
+            padding: 20px;
+            font-style: italic;
+        }
+
+        .textInHome{
+            position:absolute;
+            top: 50%;
+            left: 45%;
+            font-weight:500;
+            font-size: medium;
+            margin-right: 100px;
+            text-align: justify;
+          
+        }
+
+        .exploreMore a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .exploreMore{
+            position: absolute;
+            top: 80%;
+            left: 51%;
+            transform: translate(-50%, -50%);
+            padding: 10px 20px;
+            border: 2px solid black;
+            font-weight: bold;
+            border-radius: 5px;
+            background-color: #667eea;
+        }
+
+        .exploreMore:hover{
+            background-color: violet;
+        }
+
+        #intro{
+            background: linear-gradient(135deg,#e0c3fc  0%, #764ba2 0%,  #667eea 100%);
+            text-align: center;
+            color:#ffffff;
+
+        }
+
+        #my-mission {
+            color: #333;
+        }
+
+        .colDiv{
+            display: inline-block;
+            width: 250px;
+            padding: 50px 20px 40px 20px;
+            margin: 30px 30px;
+            text-align: justify;
+            vertical-align: top;
+        }
+
+        .colDiv span{
+            font-size: 20px;
+            font-weight: bold;
+            font-style: italic;
+            text-decoration: underline;
+            margin-bottom: 10px;
+            display: block;
+           
+        }
+
+        .colDiv:hover{
+            background: radial-gradient(circle, rgba(102,126,234,1) 0%, rgba(39, 5, 73, 0.8) 100%);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+
+        #my-mission span{
+            font-style: italic;
+            font-weight: bold;
+            text-align: center;
+            padding-left: 100px;
+        }
+
+         ol {
+            padding-left: 100px;
+            float: left;
+            width: 50%;
+            margin-bottom: 50px;
+            margin-top: 20px;
+            text-align: justify;
+            font-size: medium;
+            color: rgb(176, 52, 201);
+            font-weight: 600;
+        }
+
+        li{
+            margin: 20px 100px 0px 0px;
+            list-style-position: outside;
+        }
+
+        .my-Team{
+            height:500px;
+            background-color: #667eea;
+            position: relative;
+            /* width:100%; */
+        }
+
+        .my-Team h1{
+            position: absolute;
+            top:20px;
+            left:43%;
+            /* width:100%; */
+            /* text-align: center; */
+            font-style: italic;
+        }
+
+        .figure-Img{
+            display: inline-block;
+            padding: 90px 20px;
+        }
+
+        .figure-Img img{
+            width:200px;
+            height:200px;
+            border-radius: 5px;
+        }
+
+        .figure-Img div{
+            position: relative;
+            text-align: center;
+            font-weight: bold;
+            top:20px;
+            margin-bottom: 30px;
+        }
+
+        .figure-Img figcaption{
+            width:200px;
+            text-align: justify;
+        }
+
+        .contact-Class{
+            height:500px;
+        }
+
+        .login-Class{
+            height: 500px;
+            text-align: center;
+            color:#764ba2;
+        }
+
+        .login-Class form{
+            margin: 70px 400px;
+            width: 400px;
+            background: linear-gradient(135deg, #e0c3fc 0%, #b8c7ff 45%, #667eea 100%);
+            border-radius: 5px;;
+        }
+
+        .login-Class fieldset{
+            border: none;
+            padding: 20px 20px 10px 20px;
+        }
+
+        .login-Class label{
+            display: block;
+            margin: 20px 0 25px 0;
+            font-weight: bold;
+            padding: 10px 10px;
+            width: 100%;
+            font-size: x-large;
+        }
+
+        .login-Class input{
+            width: 50%;
+            padding: 10px 10px;
+            font-size: medium;
+            border-radius: 5px;
+            border: 1px solid gray;
+        }
+
+        .login-button , legend{
+            background: linear-gradient(135deg, #764ba2, #667eea);
+            color: white;
+            font-weight: bold;
+            font-size: large;
+            border-radius: 5px;
+            padding: 10px 20px;
+        }
+
+        .login-button:hover{
+            color: black;
+        }
+
+        .registerClass{
+            height: 950px;
+            background: linear-gradient(135deg, #667eea 0%, #885f84 50%, #764ba2 100%);
+            color:white;
+            text-align: center;
+
+        }
+
+        .form-field{
+            margin-bottom: 20px;
+            width: 100%;
+            position: relative;
+          
+        }
+
+        .form-field label{
+            display: block;
+            font-weight: bold;
+            margin-bottom: 8px;
+            margin-left: 400px;
+            font-size: 23px;
+            text-align: left;
+            position: relative;
+            font-style: italic;
+        }
+        
+        .form-field .inputclass{
+            width: 20%;
+            height: 10px;
+            padding: 10px 10px; 
+            font-size: small;
+            border-radius: 5px;
+            border: 1px solid gray;
+            position: absolute;
+            left: 30%;
+            top:0px;
+        }
+
+        .registerClass input::placeholder{
+            font-size: small;
+            color:blue;
+        }
+
+        .form-field textarea{
+            /* width: 50%;
+            height: 80px; */
+            padding: 10px 10px; 
+            font-size: small;
+            border-radius: 5px;
+            border: 1px solid gray;
+            position: relative;
+            left: 20%;
+            top:0px;
+        }
+
+     .radioClass{
+            margin-left: 160px;
+            margin-bottom: 2px;
+            position: relative;
+            top:-25px;
+            height: 30px;
+            font-size: large;
+            font-weight: bold;
+        }
+
+        .radioClass input{
+            margin-right: 10px;
+        }
+
+        .checkClass{
+            margin-left: 30%;
+            margin-bottom: 0px;
+            position: relative;
+            top:-15px;
+            height: 30px;
+            font-size: large;
+        }
+        .checkClass input{
+            margin-right: 10px;
+        }
+
+        /* .form-field textarea{
+            height: 40px;
+        } */
+
+        .registerClass fieldset{
+            margin-top: 20px;
+            border: none;
+        }    
+
+        .register-button
+        {
+            font-weight: bold;
+            font-size: large;
+            border-radius: 5px;
+            padding: 10px 20px;
+        }
+
+        .register-button:hover{
+             background: linear-gradient(135deg, #764ba2, #667eea);
+            color: white;
+        }
+
+        .agendaClass{
+            color: #764ba2;
+            padding-bottom: 50px;
+            font-size: large;
+        }
+
+        .agendaClass table{
+            width:80%;
+        }
+
+        .agendaClass th,tfoot td{
+            background-color: #667eea;
+            color: white;
+        }
+
+        .agendaClass table, th, td{
+            margin: 0 auto;
+            border-collapse: separate;
+            /* border: 2px solid rgb(89, 74, 85) ; */
+            vertical-align: middle;
+            text-align: center  ;
+            padding: 10px;
+        }
+
+        .agendaClass caption{
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            margin-top: 20px;
+            text-decoration: underline;
+        }
+
+        .agendaClass tbody tr:nth-child(even){
+            background-color: #ddccdb;
+        }
+
+       .agendaClass tr:first-child th{
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+       }
+
+         .agendaClass tfoot tr td{
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+         }
